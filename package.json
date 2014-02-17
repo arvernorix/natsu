@@ -1,0 +1,46 @@
+{
+  "name": "natsu",
+  "version": "0.0.0",
+  "description": "Just a random package",
+  "author": "Meo <meo@lozi.vn> (http://arvernorix.com)",
+  "contributors": [
+    "Meo <meo@lozi.vn> (http://arvernorix.com)"
+  ],
+  "keywords": [
+    "utility",
+    "library"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://en.wikipedia.org/wiki/MIT_License"
+    }
+  ],
+  "dependencies": {
+    "shien": "0.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0",
+    "matchdep": "~0.3.0",
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0"
+  },
+  "main": "./lib/natsu.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "engines": [
+    {
+      "node": ">= 0.8.0"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arvernorix/natsu.git"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/arvernorix/natsu/issues"
+  }
+}
